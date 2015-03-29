@@ -1,0 +1,2 @@
+class FreeProductsController < ApplicationController
+end
