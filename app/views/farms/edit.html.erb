@@ -1,0 +1,12 @@
+<h3> Lets update this farm! </h3>
+
+<%= form_for @farm do |f| %>
+<%= f.label :name %>
+<%= f.text_field :name %>
+
+<%= f.label :state %>
+<%= f.text_field :state %>
+
+<%= f.submit "Update Farm" %>
+
+<% end %>
